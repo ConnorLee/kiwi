@@ -31,8 +31,10 @@
 }
 
 .circle-button > img {
-  width: 50%;
-  height: 50%; 
+  /* width: 50%;
+  height: 50%;  */
+  height: max-content;
+  width: max-content;
 }
 
 .overlay.show {
