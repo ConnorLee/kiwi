@@ -35,7 +35,7 @@ export default function App() {
 
       <div className={`overlay ${overlayOpen ? '' : 'hide'}`}>
         <div className="button-group">
-          <button className="circle-button" onClick={toggleOverlay}>X</button>
+          <button className="circle-button" onClick={toggleOverlay}>XTEST</button>
         </div>
 
         <img className="kiwi-img" src={kiwi} alt="Kiwi" />
