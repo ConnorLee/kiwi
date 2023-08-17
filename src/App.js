@@ -21,7 +21,6 @@ export default function App() {
 
       {!overlayOpen && (
         <div className="button-group">
-
           <button className="circle-button" onClick={toggleOverlay}>🥝</button>
           <button className="circle-button" onClick={twitter}>
             <img src={logo} alt="Button Text" />
